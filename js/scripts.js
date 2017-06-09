@@ -22,15 +22,11 @@ function ping_pong(number) {
       return arrayResult
     }
    //var result = (arrayResult.push(number)).toString();
- });
-alert(arrayResult)
+  });
+  arrayResult.forEach(function(number) {
+    $("ul").append("<li>" + number + "</li>");
+  });
 }
-
-//arrayResult.splice(number-1, 1);
-//function range(start, end) {
-  //  var foo = [];
-    //for (var i = start; i <= end; i++) {
-      //  foo.push(i);
-    //}
-    //return foo;
-//}
+//ranks.forEach(function(rank) {
+//      $("ul").append('<li class="' + suit + '">' + rank + " of " + suit + "</li>");
+//    });
