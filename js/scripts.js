@@ -11,8 +11,7 @@ $(document).ready(function() {
 var arrayResult = [];
 function ping_pong(number) {
   var arrayResult = Array.from({length: number}, (v, k) => k+1);
-  arrayResult.forEach(calculate);
-  function calculate(number) {
+  arrayResult.forEach(function(number) {
     if (number % 15 === 0) {
       arrayResult.splice((number-1), 1, "ping-pong");
     } else if (number % 5 === 0) {
@@ -20,12 +19,11 @@ function ping_pong(number) {
     } else if (number % 3 === 0) {
       arrayResult.splice((number-1), 1, "ping");
     } else {
-      return number;
+      return arrayResult
     }
    //var result = (arrayResult.push(number)).toString();
-   return result;
-  }
-
+ });
+alert(arrayResult)
 }
 
 //arrayResult.splice(number-1, 1);
