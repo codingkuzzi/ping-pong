@@ -4,8 +4,17 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("#inputNumber").val());
     $("#result").text(ping_pong(number));
+
+    $("#reset").click(function(event){
+      $("#result").hide();
+      return;
+
+    });
+
   });
 });
+
+
 
 // BACK END
 var arrayResult = [];
@@ -21,12 +30,8 @@ function ping_pong(number) {
     } else {
       return arrayResult
     }
-   //var result = (arrayResult.push(number)).toString();
   });
   arrayResult.forEach(function(number) {
-    $("ul").append("<li>" + number + "</li>");
+  $("ul").append("<li>" + number + "</li>");
   });
 }
-//ranks.forEach(function(rank) {
-//      $("ul").append('<li class="' + suit + '">' + rank + " of " + suit + "</li>");
-//    });
