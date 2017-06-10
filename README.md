@@ -16,9 +16,9 @@ _This is a web application that takes a number from a user and returns a range o
 * The program counts from 1 to given number and replaces it with "pong" if it's divisible by 5. Input Example: "5". Output Example: "1,2,'ping',4,'pong'".
 * The program counts from 1 to given number and replaces it with "ping-pong" if it's divisible by 15. Input Example: "15". Output Example: "1,2,'ping',4,'pong','ping',7,8, 'ping','pong',11,'ping',13,14,'ping-pong'".
 * The program shows output results as unordered list. Input Example: "3". Output Example:
-* - 1.
-* - 2.
-* - 3."
+* "1.
+* 2.
+* 3."
 * The program has reset option to give a user ability to enter a new number and see new results over and over again. Click "Reset" button should empty the page from list of previous results._
 
 ## Setup/Installation Requirements
