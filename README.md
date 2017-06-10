@@ -6,8 +6,8 @@
 
 ## Description
 
-_This is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
-* Numbers divisible by 3 are replaced with "ping"
+_This is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:_
+_- Numbers divisible by 3 are replaced with "ping"_
 * Numbers divisible by 5 are replaced with "pong"
 * Numbers divisible by 15 are replaced with "ping-pong"
 * The program except only numbers. Input Example: "aaa". Output Example: error
@@ -19,7 +19,7 @@ _This is a web application that takes a number from a user and returns a range o
 * "1
 * "2
 * ping
-* The program has reset option to give a user ability to enter a new number and see new results over and over again. Click "Reset" button should empty the page from list of previous results._
+* The program has reset option to give a user ability to enter a new number and see new results over and over again. Click "Reset" button should empty the page from list of previous results.
 
 ## Setup/Installation Requirements
 
@@ -30,7 +30,7 @@ _This is a web application that takes a number from a user and returns a range o
 
 ## Technologies Used
 
-_Git,Atom,HTML,CSS,JS,JQ_
+_Git, Atom, HTML, CSS, JS, JQ_
 
 ### License
 
