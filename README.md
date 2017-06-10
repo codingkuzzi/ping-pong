@@ -7,8 +7,8 @@
 ## Description
 
 _This is a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:_
-_Numbers divisible by 3 are replaced with "ping"_
-* Numbers divisible by 5 are replaced with "pong"
+#### Numbers divisible by 3 are replaced with "ping"
+#### Numbers divisible by 5 are replaced with "pong"
 * Numbers divisible by 15 are replaced with "ping-pong"
 * The program except only numbers. Input Example: "aaa". Output Example: error
 * The program counts from 1 to given number. Input Example: "2". Output Example: "1,2".
